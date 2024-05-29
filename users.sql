@@ -1,3 +1,4 @@
+CREATE TABLE IF NOT EXISTS Brands (active TEXT PRIMARY KEY,role TEXT,signUpSource TEXT,state TEXT,userid INTEGER,createDate DATETIME,lastLogin DATETIME);
 INSERT INTO Users (active, role, signUpSource, state, userid, createDate, lastLogin) VALUES (True, 'consumer', 'Email', 'WI', '5ff1e194b6a9d73a3a9f1052', 2021-01-03 15:24:04.800000, 2021-01-03 15:25:37.857999872);
 INSERT INTO Users (active, role, signUpSource, state, userid, createDate, lastLogin) VALUES (True, 'consumer', 'Email', 'WI', '5ff1e194b6a9d73a3a9f1052', 2021-01-03 15:24:04.800000, 2021-01-03 15:25:37.857999872);
 INSERT INTO Users (active, role, signUpSource, state, userid, createDate, lastLogin) VALUES (True, 'consumer', 'Email', 'WI', '5ff1e194b6a9d73a3a9f1052', 2021-01-03 15:24:04.800000, 2021-01-03 15:25:37.857999872);
