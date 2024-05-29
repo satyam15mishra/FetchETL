@@ -1,0 +1,32 @@
+Good Morning,
+
+I hope this email finds you well.
+
+I am writing to communicate with you about the json files I received from you the other day, and also to clear some questions that I have.
+
+Upon basic exploratory data analysis and descriptive statistics ran on the data, I discovered that the data had a lot of missing values and some highly correlated columns. I believe that we can impute a lot of those columns to save data loss, while a significant chunk of colums from the 'receipts' dataset can be
+removed. I am proposing this solution for better and efficient regression and classification models, while saving huge memory space if our product scales up further.
+
+Furthermore, there are lot of brands with ambigous names as well. If you can provide me with a data catalog or set up a 30 minute meeting with me to explain the attributes and categories to me further, this would accelerate the project! 
+
+I would be needing the following information to understand the data better, which would help me in generating better KPIs in return:
+
+	1) A lot of brands have the name '.', which forms a significant number of rows. It'd be very helpful if I can get more context to this naming convention, and we can together figure out if we can categorize these 'unnamed' brands in an efficient way.
+
+	2) The Receipt data has an attribute 'rewardsReceiptStatus', and one of the OLAP queries demand me to look into the "Accepted" receipt status, which seems to be missing. Can you please elaborate on the definition of statuses, so that I can provide a granular statistic on the same?
+
+	3) It would be be extremely helpful for the team if we can brainstorm on a better way to impute the missing values instead of simply dropping them. Because the more data we have, we can use it towards more use cases. Which is a better solution than simply losing out on other useful attributes because of a single missing value.
+
+	4) The data is heavily skewed, specifically the 'receipts' file. If the team is provided with a balanced data that'd be a good solution to tackle this issue. Alternatively, we can drop skewed rows as well. However, my only concern is that right now we have a relatively smaller dataset. I'd not suggest to lose rows at this point of the project.
+
+	5) Finally, I also found out that the data is stale, and we can think of better strategies for the product using more recent data.
+
+
+Addressing these issues right at the beginning will aid a lot in scaling up our data model when we would want keep a 99.99% uptime for the pipeline. I believe consistent data, with less skewness is much better for analytics and predictions. I am planning to migrate towards a data lake architecture, along with efficient orchestration once we finalize a schema with streamed data ingestion and proper definitions.
+
+I hope this email explains my concerns and suggestions on the data we have. Please feel free to reach out to me if you have any questions in the meantime.
+
+Looking forward to hearing from you.
+
+Best,
+Satyam
