@@ -41,8 +41,3 @@ Same ambiguity in definition applies in this query as well. To answer the questi
 I've queried top 3 brands with most spend amongst users created '6 months prior to latest date in the data'. Which makes Pepsi as our answer.
 A data quality issue while answering the query was that the data is stale because it returns no rows when queried for users created in 6 months from today's date (May 2024).
 
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
